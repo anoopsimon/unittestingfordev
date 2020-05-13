@@ -22,7 +22,6 @@ namespace TestNinja.Tests
         [Test]
         public void GetCustomer_IdIsNotZero_ReturnOK()
         {
-
             var customerController = new CustomerController();
             var result = customerController.GetCustomer(5);
             Assert.That(result, Is.TypeOf<Ok>());
