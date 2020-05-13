@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System.Linq;
 using Assert = NUnit.Framework.Assert;
 using Math = TestNinja.Fundamentals.Math;
 
@@ -24,6 +25,24 @@ namespace TestNinja.Tests
             Assert.That(result ,Is.EqualTo(20));
 
         }
+
+
+        [Test]
+        public void Math_GetOddNumbers_LimitGreaterThanZero_ReturnOddNumbersUptoLimit()
+        {
+            var result = _math.GetOddNumbers(5);
+
+            Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
+            Assert.That(result, Is.Ordered);
+            Assert.That(result, Is.Unique);
+
+        }
+
+
+      
+        
+
+
 
         [Test]
         [TestCase(2,1,2)]
