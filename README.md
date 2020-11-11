@@ -1,2 +1,2 @@
-# Hello
-a simple project demonstrating unit tests in C#
+# Web Automation 
+This project contains automated integration tests for XYZ project
