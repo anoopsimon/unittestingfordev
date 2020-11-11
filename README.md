@@ -16,7 +16,7 @@ Most common locator types used in selenium are :
 When we instruct selenium to find a UI control and interact with it , we need to provide the locator of the UI control also , so that selenium can look up and find it from the web page, and this is a must do activity for selenium interaction.
 
 Now, let's take an example :
-Application A under test has 5 pages , and each page has 50 UI controls , and UI controls are 5 different types
+Application A under test has 5 pages , and each page has 25 UI controls , and UI controls are 5 different types
 * Page 1 - 30 UI Controls ( 5 Textbox , 5 Buttons , 5 Dropdowns , 5 Radio buttons , 5 checkboxes , 5 auto suggest boxes)
 * Page 2 - 30 UI Controls ( 5 Textbox , 5 Buttons , 5 Dropdowns , 5 Radio buttons , 5 checkboxes , 5 auto suggest boxes)
 * Page 3 - 30 UI Controls ( 5 Textbox , 5 Buttons , 5 Dropdowns , 5 Radio buttons , 5 checkboxes , 5 auto suggest boxes)
@@ -26,7 +26,11 @@ Application A under test has 5 pages , and each page has 50 UI controls , and UI
 As a tester, when you automate Application A , you will end up writing **30 x  5 = 150 Locators !!! **
 
 Writing 150 locators should be last option! Why ?
-First , think about developer(s) who built this application. Do you think a developer has designed each and every control
+Like automation framework , development framework exists too.
+Even if there isn't a development framework , there should be a pattern developers have used for building user interface. As an automation tester , we must invest time on finding the pattern used for developing the UI before start writing locators.
+Once we do that successfully
+
+
 
 
 
