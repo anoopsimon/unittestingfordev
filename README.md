@@ -1,6 +1,8 @@
 # XYZ Automation
 This project contains automated integration tests for XYZ project
 
+**Please note :** There is no "one size fits all" solution for test automation. Hence finalizing an approach for automation is the key. Given below is the approach we have adopted for automating web applications integration testing in XYZ project
+
 ## Automation Approach
 Web automation in XYZ project relies heavily on Selenium library(because it free,open source, and got best community support). 
 When a automation script is developed using Selenium, we should make sure that the script is maintenable, readable , and stable.
@@ -31,8 +33,12 @@ Even if there isn't a development framework , there should be a pattern develope
 Automation scripts will be very stable ,readable and maintenable if you adopt this approach
 Benefits:
 * No need to spend effort on writing locator when a new control is implemented in the UI . Just identity what control type it is and interact with it
-   Ex :
-   First : 
+* Most of your test cases can be driven from a data sheet (JSON/XML/EXCEL) since script is not relying completely on specific locators
+
+When an organization develops multiple applications using same development framework , this approach is most effective because you can re use the code you have written for one application in the other with NO or very minimum configuration change
+
+
+  
 
 
 
