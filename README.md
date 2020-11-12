@@ -28,7 +28,11 @@ As a tester, when you automate Application A , you will end up writing **30 x  5
 Writing 150 locators should be last option! Why ?
 Like automation framework , development framework exists too.
 Even if there isn't a development framework , there should be a pattern developers have used for building user interface. As an automation tester , we must invest time on finding the pattern used for developing the UI before start writing locators.
-Once we do that successfully
+Automation scripts will be very stable ,readable and maintenable if you adopt this approach
+Benefits:
+* No need to spend effort on writing locator when a new control is implemented in the UI . Just identity what control type it is and interact with it
+   Ex :
+   First : 
 
 
 
