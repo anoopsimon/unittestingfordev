@@ -38,7 +38,7 @@ Benefits:
 When an organization develops multiple applications using same development framework , this approach is most effective because you can re use the code you have written for one application in the other with NO or very minimum configuration change
 
 
-  
+Please go throgh the project WIKI for implementation details  
 
 
 
