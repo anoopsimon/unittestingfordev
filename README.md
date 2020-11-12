@@ -31,9 +31,11 @@ Writing 150 locators should be last option! Why ?
 Like automation framework , development framework exists too.
 Even if there isn't a development framework , there should be a pattern developers have used for building user interface. As an automation tester , we must invest time on finding the pattern used for developing the UI before start writing locators.
 Automation scripts will be very stable ,readable and maintenable if you adopt this approach
+
 Benefits:
-* No need to spend effort on writing locator when a new control is implemented in the UI . Just identity what control type it is and interact with it
+* No need to spend effort on writing locator when a new control is implemented in the UI . Just identity what control type it is and interact with it.
 * Most of your test cases can be driven from a data sheet (JSON/XML/EXCEL) since script is not relying completely on specific locators
+* Reduces number of lines code significantly
 
 When an organization develops multiple applications using same development framework , this approach is most effective because you can re use the code you have written for one application in the other with NO or very minimum configuration change
 
